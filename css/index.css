@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #555;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tfoot {
+    background: #333;
+    color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  
+  @media only screen and (max-width: 600px) {
+    .container,
+    table,
+    form {
+      width: 100%;
+    }
+  
+    header, footer {
+      padding: 10px 0;
+    }
+  }
+  
